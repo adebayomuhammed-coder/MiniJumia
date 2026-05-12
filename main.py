@@ -2,7 +2,6 @@ from flask import Flask, render_template ,redirect ,url_for,request , session
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Integer,String
 from sqlalchemy.orm import Mapped , mapped_column
-import smtplib
 from random import randint
 from werkzeug.security import generate_password_hash , check_password_hash
 from flask_login import UserMixin ,  LoginManager,  login_required , login_user , logout_user , current_user
