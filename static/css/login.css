@@ -1,0 +1,45 @@
+/* BEGINING OF LOGIN.HTML  PAGE */
+.form{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+input{
+    display: block;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 12px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: #9AD872;
+    color: aliceblue;
+    margin-top: 20px;
+    width: 320px;
+    height: 45px;
+    border: 1px solid #9AD872;
+}
+ img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ }
+ .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error {
+  color: red;
+  background: #ffe6e6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+

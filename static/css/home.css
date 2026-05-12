@@ -1,0 +1,145 @@
+/* PAGE WRAPPER */
+.container{
+    width:90%;
+    margin:auto;
+}
+
+/* GRID */
+.products{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+    margin-top: 15px;
+}
+
+/* CARD */
+.card{
+    display: flex;
+    height:300px;
+    background:#9AD872;
+    border-radius:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    transform: translateY(-25px);
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+
+  
+   body{
+    margin: 0;
+}
+
+/* Main Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;      /* smaller height */
+    height: 80px;
+}
+
+/* Left Side */
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand h1{
+    margin: 0;
+    font-size: 28px;         /* smaller text */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Logo */
+.logo{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 45px;
+}
+
+/* Right Side */
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* User Icon */
+.user-icon{
+    width: 22px;
+    height: 22px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.user-icon::after{
+    content: "";
+    width: 30px;
+    height: 16px;
+    border: 3px solid black;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: 22px;
+    left: -7px;
+}
+
+/* Cart */
+.cart-icon{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Hidden by default */
+.badge{
+    display: none;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-box{
+    flex: 1;
+}
+
+.search-box input{
+   display: block;
+    width: 400px;
+    height: 40px;
+    margin: 0 auto 20px;
+  border-radius: 20px;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
