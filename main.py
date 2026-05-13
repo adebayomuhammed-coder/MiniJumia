@@ -7,9 +7,8 @@ from werkzeug.security import generate_password_hash , check_password_hash
 from flask_login import UserMixin ,  LoginManager,  login_required , login_user , logout_user , current_user
 import phonenumbers 
 import resend 
-from dotenv import load_dotenv
 import os 
-load_dotenv()
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATA_BASE")
