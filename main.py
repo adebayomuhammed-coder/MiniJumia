@@ -151,8 +151,7 @@ def information ():
                Phone_number = full_phone,
                Password = user_hashed_password
         )
-        db.session.add(new_User)
-        db.session.commit()
+
         return redirect (url_for('goods'))
 
         
